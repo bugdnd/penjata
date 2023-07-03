@@ -1,0 +1,49 @@
+{
+	inherit = "template/pbr_gun";
+	edit = {
+		RenderLayers = {
+			item[0] = {
+				parms = {
+					heightmap = {
+						filePath = "textures/system/constant_color/grey_md.tga";
+						options = {
+							type = "TT_2D";
+							filter = "TF_DEFAULT";
+							repeat = "TR_REPEAT";
+							format = "FMT_BC1";
+							atlasPadding = 0;
+							fullScaleBias = false;
+							noMips = false;
+							fftBloom = false;
+						}
+					}
+					bloommaskmap = {
+						filePath = "art/tile/glow/glow_gradient_edges.tga";
+					}
+					sssmask = {
+						filePath = "textures/system/constant_color/black_noalpha.tga";
+						options = {
+							format = "FMT_BC1_ZERO_ALPHA";
+						}
+					}
+					smoothness = {
+						filePath = "textures/system/constant_color/black_noalpha.tga";
+					}
+					albedo = {
+						filePath = "textures/system/constant_color/black_noalpha.tga";
+					}
+				}
+			}
+		}
+		Parms = {
+			surfaceemissivescale = 5;
+			surfaceemissivecolor = {
+				x = 1;
+				y = 0;
+				z = 0;
+			}
+		}
+		Flags = "";
+		SurfaceType = "SURFTYPE_GLASS";
+	}
+}

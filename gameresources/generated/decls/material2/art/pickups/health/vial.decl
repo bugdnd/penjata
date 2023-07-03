@@ -1,0 +1,46 @@
+{
+	inherit = "template/pbr";
+	edit = {
+		RenderLayers = {
+			item[0] = {
+				parms = {
+					heightmap = {
+						options = {
+							format = "FMT_BC1";
+						}
+					}
+					bloommaskmap = {
+						filePath = "art/pickups/health/vial.tga";
+					}
+					sssmask = {
+						filePath = "_default";
+					}
+					normal = {
+						filePath = "art/pickups/health/vial_n.tga";
+					}
+					specular = {
+						filePath = "textures/system/constant_color/grey_lt.tga";
+					}
+					albedo = {
+						filePath = "art/pickups/ammo/lootred.tga";
+					}
+				}
+			}
+		}
+		Parms = {
+			surfaceemissivecolor = {
+				x = 1;
+				y = 0;
+				z = 0;
+			}
+			surfacesheencolor = {
+				x = 0.8;
+				y = 0;
+				z = 0;
+			}
+			surfaceemissivescale = 0.25;
+			blendsoftness = 0.200000003;
+		}
+		SurfaceType = "SURFTYPE_GLASS";
+	}
+}

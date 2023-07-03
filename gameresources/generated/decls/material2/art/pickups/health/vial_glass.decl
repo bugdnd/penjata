@@ -1,0 +1,27 @@
+{
+	inherit = "template/glass";
+	edit = {
+		Parms = {
+			glassalbedo = {
+				x = 1;
+				y = 0;
+				z = 0;
+			}
+			glassalbedomap = {
+				filePath = "art/pickups/health/vial_glass.tga";
+			}
+			glassspecularmap = {
+				filePath = "textures/system/constant_color/grey_lt.tga";
+			}
+			glassnormalmap = {
+				filePath = "art/pickups/health/vial_glass_n.tga";
+			}
+			glasssmoothnessmap = {
+				filePath = "textures/system/constant_color/white.tga";
+			}
+			glassalphamap = {
+				filePath = "textures/system/pbr_ref/smoothness_6.tga";
+			}
+		}
+	}
+}

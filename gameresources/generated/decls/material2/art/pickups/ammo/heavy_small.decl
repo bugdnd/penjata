@@ -1,0 +1,70 @@
+{
+	inherit = "template/pbr";
+	edit = {
+		Passes = {
+			MATERIALPASS_OPAQUE = {
+				prog = "pickup";
+			}
+		}
+		RenderLayers = {
+			item[0] = {
+				parms = {
+					bloommaskmap = {
+						filePath = "art/pickups/ammo/plasma_large_glow.tga";
+						options = {
+							format = "FMT_BC4";
+						}
+					}
+					colormask = {
+						filePath = "textures/system/constant_color/black_noalpha.tga";
+						options = {
+							type = "TT_2D";
+							filter = "TF_DEFAULT";
+							repeat = "TR_REPEAT";
+							format = "FMT_BC1";
+							atlasPadding = 0;
+							fullScaleBias = false;
+							noMips = false;
+						}
+					}
+					smoothness = {
+						filePath = "art/pickups/ammo/heavy_small_pm.tga";
+					}
+					normal = {
+						filePath = "art/pickups/ammo/heavy_small_local.tga";
+					}
+					specular = {
+						filePath = "art/pickups/ammo/heavy_small_s.tga";
+					}
+					albedo = {
+						filePath = "art/pickups/ammo/heavy_small.tga";
+					}
+				}
+			}
+		}
+		Parms = {
+			surfaceemissivecolor = {
+				x = 0.9;
+				y = 0;
+				z = 0;
+			}
+			surfacesheencolor = {
+				x = 0.7;
+				y = 0;
+				z = 0;
+			}
+			surfaceemissivetiledmask = {
+				filePath = "textures/system/constant_color/black_noalpha";
+				options = {
+					type = "TT_2D";
+					filter = "TF_DEFAULT";
+					repeat = "TR_REPEAT";
+					format = "FMT_BC3";
+					atlasPadding = 0;
+					fullScaleBias = false;
+					noMips = false;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,48 @@
+{
+	edit = {
+		editEvents = {
+			num = 2;
+			item[0] = {
+				name = "trail";
+				group = "Ungrouped";
+				type = "FX_RIBBON_2";
+				looping = true;
+				startCondition = {
+					num = 1;
+					item[0] = "FX_NONE";
+				}
+				stopCondition = {
+					num = 1;
+					item[0] = "FX_NONE";
+				}
+				originType = "FX_ORG_TRACK_POS";
+				ribbon2Parms = {
+					declRibbon = "gameplay/loot_health";
+				}
+			}
+			item[1] = {
+				name = "icon";
+				group = "Ungrouped";
+				type = "FX_PARTICLE";
+				looping = true;
+				color = {
+					x = 0.8;
+					y = 0.3;
+					z = 0.3;
+				}
+				startCondition = {
+					num = 1;
+					item[0] = "FX_NONE";
+				}
+				stopCondition = {
+					num = 1;
+					item[0] = "FX_NONE";
+				}
+				originType = "FX_ORG_TRACK_POS";
+				particleParms = {
+					declPrt = "pickups/loot_health";
+				}
+			}
+		}
+	}
+}

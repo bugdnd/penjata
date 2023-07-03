@@ -1,0 +1,48 @@
+{
+	inherit = "template/pbr_pickup";
+	edit = {
+		RenderLayers = {
+			item[0] = {
+				parms = {
+					heightmap = {
+						filePath = "textures/system/constant_color/grey_md.tga";
+						options = {
+							type = "TT_2D";
+							filter = "TF_DEFAULT";
+							repeat = "TR_REPEAT";
+							format = "FMT_BC1";
+							atlasPadding = 0;
+							fullScaleBias = false;
+						}
+					}
+					bloommaskmap = {
+						filePath = "art/pickups/health/health_pack_big_a.tga";
+					}
+					sssmask = {
+						filePath = "_default";
+					}
+					normal = {
+						filePath = "art/pickups/health/health_pack_big_a_n.tga";
+					}
+					specular = {
+						filePath = "textures/system/constant_color/grey_lt.tga";
+					}
+					albedo = {
+						filePath = "art/pickups/health/health_pack_big_a.tga";
+					}
+				}
+			}
+		}
+		Parms = {
+			surfacesheencolor = {
+				x = 0.8;
+				y = 0.2;
+				z = 0.2;
+			}
+			surfaceemissivetiledmask = {
+				filePath = "textures/system/constant_color/black.tga";
+			}
+		}
+		SurfaceType = "SURFTYPE_PLASTIC";
+	}
+}

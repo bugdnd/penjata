@@ -1,0 +1,48 @@
+{
+	edit = {
+		editEvents = {
+			num = 2;
+			item[0] = {
+				name = "trail";
+				group = "Ungrouped";
+				type = "FX_RIBBON_2";
+				looping = true;
+				startCondition = {
+					num = 1;
+					item[0] = "FX_NONE";
+				}
+				stopCondition = {
+					num = 1;
+					item[0] = "FX_NONE";
+				}
+				originType = "FX_ORG_TRACK_POS";
+				ribbon2Parms = {
+					declRibbon = "gameplay/flame_belch_pickup";
+				}
+			}
+			item[1] = {
+				name = "icon";
+				group = "Ungrouped";
+				type = "FX_PARTICLE";
+				looping = true;
+				color = {
+					x = 1;
+					y = 0.2;
+					z = 0.2;
+				}
+				startCondition = {
+					num = 1;
+					item[0] = "FX_NONE";
+				}
+				stopCondition = {
+					num = 1;
+					item[0] = "FX_NONE";
+				}
+				originType = "FX_ORG_TRACK_POS";
+				particleParms = {
+					declPrt = "pickups/loot_armor";
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,35 @@
+{
+	inherit = "template/pbr";
+	edit = {
+		RenderLayers = {
+			item[0] = {
+				parms = {
+					bloommaskmap = {
+						filePath = "art/pickups/crucible/hammer_symbol_e.tga";
+					}
+					smoothness = {
+						filePath = "art/pickups/crucible/hammer_symbol_g.tga";
+					}
+					normal = {
+						filePath = "art/pickups/crucible/hammer_symbol_n.tga";
+					}
+					specular = {
+						filePath = "art/pickups/crucible/hammer_symbol_s.tga";
+					}
+					albedo = {
+						filePath = "art/pickups/crucible/hammer_symbol.tga";
+					}
+				}
+			}
+		}
+		Parms = {
+			surfaceemissivescale = 15;
+			surfaceemissivecolor = {
+				x = 1;
+				y = 0;
+				z = 0;
+			}
+		}
+		SurfaceType = "SURFTYPE_METAL";
+	}
+}

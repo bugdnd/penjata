@@ -1,0 +1,66 @@
+{
+	edit = {
+		material = "effect/ribbon/beam_gauss";
+		lifespan = 0.0500000007;
+		turbulenceMagnitude = {
+			x = 2;
+			y = 2;
+			z = 2;
+		}
+		turbulenceScale = 4;
+		textureTileLength = 10;
+		texturePanSpeed = -2;
+		curvature = 1;
+		fadeOutFraction = 0.699999988;
+		fadeInFractionLength = 0.75;
+		fadeOutFractionLength = 0.100000001;
+		shape = "RIBBON_SHAPE_CROSS";
+		ribbonSegment = {
+			colorOnSpawn = {
+				r = 1;
+				g = 0;
+				b = 0;
+			}
+			colorOnDeath = {
+				r = 0.8;
+				g = 0;
+				b = 0;
+			}
+			widthOnSpawn = {
+				min = 0.25;
+				max = 0.25;
+			}
+			widthOnDeath = {
+				min = 0.100000001;
+				max = 0.100000001;
+			}
+		}
+		ribbonType = "RIBBON_TRAIL";
+		tracerInfo = {
+			tracerEnd = {
+				colorOnSpawn = {
+					r = 1;
+					g = 0;
+					b = 0;
+				}
+				colorOnDeath = {
+					r = 0.8;
+					g = 0;
+					b = 0;
+				}
+				widthOnSpawn = {
+					min = 0;
+					max = 0;
+				}
+			}
+			tracerSegmentCount = {
+				min = 128;
+				max = 128;
+			}
+		}
+		trailInfo = {
+			trailSmoothed = true;
+			maxAngle = 45;
+		}
+	}
+}

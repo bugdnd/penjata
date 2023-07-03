@@ -1,0 +1,17 @@
+{
+	inherit = "gameplay/loot_ammo";
+	edit = {
+		ribbonSegment = {
+			colorOnSpawn = {
+				r = 0.9;
+				g = 0.2;
+				b = 0.2;
+			}
+			colorOnDeath = {
+				r = 0.7;
+				g = 0.1;
+				b = 0.1;
+			}
+		}
+	}
+}

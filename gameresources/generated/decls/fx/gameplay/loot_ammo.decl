@@ -1,0 +1,53 @@
+{
+	edit = {
+		editEvents = {
+			num = 2;
+			item[0] = {
+				name = "trail";
+				group = "Ungrouped";
+				type = "FX_RIBBON_2";
+				duration = 1500;
+				fadeOutTime = 500;
+				startCondition = {
+					num = 1;
+					item[0] = "FX_NONE";
+				}
+				stopCondition = {
+					num = 1;
+					item[0] = "FX_NONE";
+				}
+				originType = "FX_ORG_TRACK_POS";
+				ribbon2Parms = {
+					declRibbon = "gameplay/loot_ammo";
+				}
+			}
+			item[1] = {
+				name = "icon";
+				group = "Ungrouped";
+				type = "FX_PARTICLE";
+				duration = 6000;
+				delayMin = 250;
+				delayMax = 250;
+				looping = true;
+				fadeInTime = 500;
+				color = {
+					x = 1;
+					y = 0;
+					z = 0;
+				}
+				startCondition = {
+					num = 1;
+					item[0] = "FX_NONE";
+				}
+				stopCondition = {
+					num = 1;
+					item[0] = "FX_NONE";
+				}
+				originType = "FX_ORG_TRACK_POS";
+				particleParms = {
+					declPrt = "pickups/loot_ammo";
+				}
+			}
+		}
+	}
+}
