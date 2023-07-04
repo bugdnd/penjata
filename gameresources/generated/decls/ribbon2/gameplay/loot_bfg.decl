@@ -15,7 +15,7 @@
 		ribbonSegment = {
 			colorOnSpawn = {
 				r = 0.9;
-				g = 0.2;
+				g = 0.8;
 				b = 0.2;
 			}
 			colorOnDeath = {
@@ -37,7 +37,7 @@
 			tracerEnd = {
 				colorOnSpawn = {
 					r = 0.9;
-					g = 0.2;
+					g = 0.8;
 					b = 0.2;
 				}
 				colorOnDeath = {

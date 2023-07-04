@@ -17,8 +17,8 @@
 		shape = "RIBBON_SHAPE_CROSS";
 		ribbonSegment = {
 			colorOnSpawn = {
-				r = 1;
-				g = 0;
+				r = 0.9;
+				g = 0.8;
 				b = 0;
 			}
 			colorOnDeath = {
@@ -39,8 +39,8 @@
 		tracerInfo = {
 			tracerEnd = {
 				colorOnSpawn = {
-					r = 1;
-					g = 0;
+					r = 0.9;
+					g = 0.8;
 					b = 0;
 				}
 				colorOnDeath = {

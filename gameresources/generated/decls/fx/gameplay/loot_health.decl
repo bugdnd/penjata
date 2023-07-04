@@ -26,9 +26,9 @@
 				type = "FX_PARTICLE";
 				looping = true;
 				color = {
-					x = 0.8;
-					y = 0.3;
-					z = 0.3;
+					x = 0;
+					y = 0;
+					z = 1;
 				}
 				startCondition = {
 					num = 1;

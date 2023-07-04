@@ -11,17 +11,17 @@
 		fadeOutFractionLength = 0.200000003;
 		ribbonLootParticle = true;
 		opacity = {
-			baseValue = 0.200000003;
+			baseValue = 0.05;
 		}
 		ribbonSegment = {
 			colorOnSpawn = {
-				r = 0.9;
-				g = 0.2;
+				r = 0.2;
+				g = 0.9;
 				b = 0.2;
 			}
 			colorOnDeath = {
-				r = 0.7;
-				g = 0.1;
+				r = 0.1;
+				g = 0.7;
 				b = 0.1;
 			}
 			widthOnSpawn = {
@@ -37,13 +37,13 @@
 		tracerInfo = {
 			tracerEnd = {
 				colorOnSpawn = {
-					r = 0.9;
-					g = 0.2;
+					r = 0.2;
+					g = 0.9;
 					b = 0.2;
 				}
 				colorOnDeath = {
-					r = 0.7;
-					g = 0.1;
+					r = 0.1;
+					g = 0.7;
 					b = 0.1;
 				}
 				widthOnSpawn = {

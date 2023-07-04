@@ -27,7 +27,7 @@
 				looping = true;
 				color = {
 					x = 1;
-					y = 0;
+					y = 0.9;
 					z = 0;
 				}
 				startCondition = {

@@ -1,0 +1,152 @@
+{
+	edit = {
+		bounds = {
+			b = {
+				b[0] = {
+					x = -0.152400002;
+					y = -0.152400002;
+					z = -0.152400002;
+				}
+				b[1] = {
+					x = 0.152400002;
+					y = 0.152400002;
+					z = 0.152400002;
+				}
+			}
+		}
+		maxSystemDuration = 1000;
+		instances = {
+			num = 2;
+			item[0] = {
+				type = "PARTICLE_STAGE_EMBEDDED";
+				name = "loot_armor";
+				stageIndex = 0;
+			}
+			item[1] = {
+				type = "PARTICLE_STAGE_EMBEDDED";
+				name = "bracket";
+				stageIndex = 1;
+			}
+		}
+		stages = {
+			num = 2;
+			item[0] = {
+				bounds = {
+					b = {
+						b[0] = {
+							x = -0.152400002;
+							y = -0.152400002;
+							z = -0.152400002;
+						}
+						b[1] = {
+							x = 0.152400002;
+							y = 0.152400002;
+							z = 0.152400002;
+						}
+					}
+				}
+				newSystem = true;
+				stageName = "outward_sparks_new";
+				systemProperties = {
+					material = "effect/spark/spark_dot_gpu";
+				}
+				rendering = {
+					specular = 0;
+					smoothness = 0;
+				}
+				systemPropertiesNEW = {
+					material = "effect/misc/loot_health";
+					spawnMode = "PSPAWN_MODE_INSTANT";
+					cpuSpawnRate = {
+						baseValue = 1;
+					}
+					alignment = "PALIGN_TYPE_VIEW_WORLD_Z";
+					space = "PSPACE_TYPE_EMITTER_SPACE";
+					emissive = 1;
+				}
+				renderingNEW = {
+					mode = "PRENDER_MODE_UNLIT";
+					alphaTest = true;
+					softParticleAlphaScale = 0;
+					nearFadeBeginDistance = 0.100000001;
+					nearFadeEndDistance = 0.00999999978;
+					lootParticle = true;
+				}
+				pivotNEW = {
+					pivotOffset = {
+						y = 2.75;
+					}
+				}
+				colorNEW = {
+					overbright = {
+						baseValue = 1.2;
+					}
+				}
+				sizeNEW = {
+					size = {
+						baseValue = 0.15;
+					}
+				}
+			}
+			item[1] = {
+				bounds = {
+					b = {
+						b[0] = {
+							x = -0.152400002;
+							y = -0.152400002;
+							z = -0.152400002;
+						}
+						b[1] = {
+							x = 0.152400002;
+							y = 0.152400002;
+							z = 0.152400002;
+						}
+					}
+				}
+				newSystem = true;
+				stageName = "outward_sparks_new";
+				systemProperties = {
+					material = "effect/spark/spark_dot_gpu";
+				}
+				rendering = {
+					specular = 0;
+					smoothness = 0;
+				}
+				systemPropertiesNEW = {
+					material = "effect/misc/loot_bracket";
+					spawnMode = "PSPAWN_MODE_INSTANT";
+					cpuSpawnRate = {
+						baseValue = 1;
+					}
+					alignment = "PALIGN_TYPE_VIEW_WORLD_Z";
+					space = "PSPACE_TYPE_EMITTER_SPACE";
+					emissive = 1;
+				}
+				renderingNEW = {
+					mode = "PRENDER_MODE_UNLIT";
+					alphaTest = true;
+					softParticleAlphaScale = 0;
+					nearFadeBeginDistance = 0.100000001;
+					nearFadeEndDistance = 0.00999999978;
+					cameraOffset = -0.5;
+					lootParticle = true;
+				}
+				pivotNEW = {
+					pivotOffset = {
+						y = 0.25;
+					}
+				}
+				colorNEW = {
+					overbright = {
+						baseValue = 0.5;
+					}
+				}
+				sizeNEW = {
+					size = {
+						baseValue = 0.200000003;
+					}
+				}
+			}
+		}
+	}
+}
