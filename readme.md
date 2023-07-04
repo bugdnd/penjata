@@ -1,8 +1,8 @@
 This is part of the Doom Remix, which controls the loot visual, which is thrown out of enemies by brightly glowing objects.
 
-/gameresources/ - contains necessary resources from gameresources.resources
+/gameresources/ contains necessary resources from gameresources.resources
 
-	/effect/texture/misc/ -
+	/effect/texture/misc/
 		- loot_bracket.tga is my edited icon for bracket accompanying health icon
 	
 	/generated/decls/ contains decls
